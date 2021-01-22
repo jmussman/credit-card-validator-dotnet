@@ -1,6 +1,6 @@
 ![](.common/joels-private-stock.png?raw=true)
 
-# Credit Card Validator
+# Credit Card Validator (.NET)
 
 This is an example class which performs validation of credit card numbers using the [Luhn algorighm](https://wikipedia.org/wiki/Luhn_algorithm).
 
@@ -10,7 +10,7 @@ The code is licensed under the MIT license. You may use and modify all or part o
 
 ### Software Configuration
 
-The library code targets .NET Core 3.1 and above. The tests are in xUnit.
+The library code targets .NET Core 3.1 and above. The unit tests are in xUnit.
 
 ### Documentation
 

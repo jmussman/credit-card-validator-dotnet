@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit-Card-Validator", "Credit-Card-Validator\Credit-Card-Validator.csproj", "{F3C6C567-F561-40B4-8173-7FB5D9652C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit-Card-Validator-Test", "Credit-Card-Validator-Test\Credit-Card-Validator-Test.csproj", "{D9EFAA60-3E90-4F04-B731-BD0CF9FE8E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EFAA60-3E90-4F04-B731-BD0CF9FE8E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EFAA60-3E90-4F04-B731-BD0CF9FE8E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94BF591A-6A5D-4178-A7CC-24812E913673}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		version = 1.0
+	EndGlobalSection
+EndGlobal

@@ -2,8 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Credit_Card_Validator</RootNamespace>
-    <ReleaseVersion>1.0</ReleaseVersion>
+    <RootNamespace>com.wonderfulwidgets.retail</RootNamespace>
+    <ReleaseVersion>1.0.1</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>WonderfulWidgets.CreditCardValidator</PackageId>
+    <Authors>Joel Mussman</Authors>
+    <Copyright>Copyright © 2018-2021 Joel Mussman. All rights reserved.</Copyright>
+    <PackageIconUrl>https://raw.githubusercontent.com/jmussman/credit-card-validator-dotnet/master/logo.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/jmussman/credit-card-validator-dotnet/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Owners>Joel Mussman</Owners>
+    <PackageProjectUrl>https://github.com/jmussman/credit-card-validator-dotnet</PackageProjectUrl>
+    <PackageReleaseNotes>Updated the project structure and description.</PackageReleaseNotes>
+    <Summary>C# implementation of the Lunh algorithm</Summary>
+    <Title>Credit Card Validator</Title>
+    <Description>This library provides an interface and class with a single boolean method that returns true if the string provided is a valid credit card number, in other words it contains only digits and the Luhn algorithm validates the checksum.
+
+The library is a dependency of two projects: the Bank of Random Credit purchase authorizer and the Everyone is Authorized payment client. These two libraries available in NuGet are designed to be used for software design demonstrations and course labs for unit testing and dependency injection.</Description>
+    <PackageVersion>1.01</PackageVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

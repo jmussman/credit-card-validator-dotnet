@@ -16,4 +16,4 @@ The library code targets .NET Core 3.1 and above. The unit tests are in xUnit.
 
 Read the library documentation at https://jmussman.github.io/credit-card-validator-dotnet/.
 <hr>
-Copyright © 2020 Joel Mussman. All rights reserved.
+Copyright © 2018-2021 Joel Mussman. All rights reserved.

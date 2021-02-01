@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.808.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator", "CreditCardValidator\CreditCardValidator.csproj", "{F3C6C567-F561-40B4-8173-7FB5D9652C73}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidatorTest", "CreditCardValidatorTest\CreditCardValidatorTest.csproj", "{B25C027A-DA2C-4295-84AA-AB0F82A12F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator", "CreditCardValidator\CreditCardValidator.csproj", "{1A6F4490-C983-4085-9D95-32313D4944D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Release|Any CPU.ActiveCfg = Release|Any CPUgit statugit reset git
-		{F3C6C567-F561-40B4-8173-7FB5D9652C73}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B25C027A-DA2C-4295-84AA-AB0F82A12F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B25C027A-DA2C-4295-84AA-AB0F82A12F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B25C027A-DA2C-4295-84AA-AB0F82A12F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B25C027A-DA2C-4295-84AA-AB0F82A12F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6F4490-C983-4085-9D95-32313D4944D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6F4490-C983-4085-9D95-32313D4944D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6F4490-C983-4085-9D95-32313D4944D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6F4490-C983-4085-9D95-32313D4944D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,7 +51,12 @@ Global
 		$4.NewLineForMembersInAnonymousTypes = False
 		$4.NewLineForClausesInQuery = False
 		$4.scope = text/x-csharp
-		version = 1.0.1
+		$0.TextStylePolicy = $5
+		$5.FileWidth = 80
+		$5.TabsToSpaces = True
+		$5.EolMarker = Unix
+		$5.scope = text/plain
+		version = 1.0.2
 		description = @This library provides an interface and class with a single boolean method that returns true if the string provided is a valid credit card number, in other words it contains only digits and the Luhn algorithm validates the checksum.\r\n\r\nThe library is a dependency of two projects: the Bank of Random Credit purchase authorizer and the Everyone is Authorized payment client. These two libraries available in NuGet are designed to be used for software design demonstrations and course labs for unit testing and dependency injection.
 	EndGlobalSection
 EndGlobal

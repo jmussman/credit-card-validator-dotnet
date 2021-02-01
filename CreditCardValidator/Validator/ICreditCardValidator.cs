@@ -4,7 +4,7 @@
 
 using System;
 
-namespace com.wonderfulwidgets.retail {
+namespace OpenCardServices.Validator {
 
     /// <summary>
     /// Interface that supports validting credit card numbers input as strings of digits.

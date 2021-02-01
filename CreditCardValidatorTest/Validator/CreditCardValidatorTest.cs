@@ -5,7 +5,7 @@
 using System;
 using Xunit;
 
-namespace com.wonderfulwidgets.retail {
+namespace OpenCardServices.Validator {
 
     public class CardValidatorTest {
 

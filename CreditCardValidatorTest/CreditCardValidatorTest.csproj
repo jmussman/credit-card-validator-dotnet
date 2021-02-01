@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Credit_Card_Validator_Test</RootNamespace>
+    <RootNamespace>CreditCardValidatorTest</RootNamespace>
 
     <IsPackable>false</IsPackable>
     <ReleaseVersion>1.0.1</ReleaseVersion>
@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Credit-Card-Validator\Credit-Card-Validator.csproj" />
+    <ProjectReference Include="..\CreditCardValidator\CreditCardValidator.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Retail\" />
+    <Folder Include="Validator\" />
   </ItemGroup>
 </Project>

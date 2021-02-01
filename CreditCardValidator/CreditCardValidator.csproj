@@ -26,20 +26,20 @@ The library is a dependency of two projects: the Bank of Random Credit purchase 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
     <DebugType></DebugType>
-    <DocumentationFile>bin\Release\netcoreapp3.1\Credit-Card-Validator.md</DocumentationFile>
+    <DocumentationFile>bin\Release\netcoreapp3.1\CreditCardValidator.md</DocumentationFile>
     <NoStdLib>true</NoStdLib>
     <CustomCommands>
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>cp Credit-Card-Validator.md "${SolutionDir}/docs/index.md"</command>
+          <command>cp CreditCardValidator.md "${SolutionDir}/docs/index.md"</command>
           <workingdir>${TargetDir}</workingdir>
         </Command>
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Retail\" />
+    <Folder Include="Validator\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Vsxmd" Version="1.4.5">

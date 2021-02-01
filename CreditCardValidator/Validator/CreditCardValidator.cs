@@ -1,10 +1,10 @@
-﻿// CreditCardValidator.java
+﻿// CreditCardValidator.cs
 // Copyright © 2019-2021 Joel Mussman. All rights reserved.
 //
 
 using System;
 
-namespace com.wonderfulwidgets.retail {
+namespace OpenCardServices.Validator {
 
     /// <summary>
     /// Supports validting credit card numbers input as strings of digits using the Luhn algorithm.
